@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  equeuebrokerserver:
+    image: ${DOCKER_REGISTRY-}equeuebrokerserver
+    build:
+      context: .
+      dockerfile: EQueueBrokerServer/Dockerfile

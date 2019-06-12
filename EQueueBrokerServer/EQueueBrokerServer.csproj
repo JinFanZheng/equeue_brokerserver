@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ECommon.Autofac" Version="2.5.0" />
+    <PackageReference Include="ECommon.JsonNet" Version="2.5.0" />
+    <PackageReference Include="ECommon.Log4Net" Version="2.5.2" />
+    <PackageReference Include="EQueue" Version="2.5.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
